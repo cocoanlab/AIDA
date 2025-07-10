@@ -176,5 +176,5 @@ cython_debug/
 # IGNORE
 dataset/
 config/
-results/AIDA_*.csv
+results/AIDA_all_df.csv
 *.DS_Store
