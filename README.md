@@ -1,6 +1,6 @@
 # Interpretable Depression Assessment Using a Large Language Model
 
-This repository is for sharing the codes that are used in the following paper.
+This repository is for sharing the data and code used in the following paper.
 
 > Jae-Joong Lee, Jihoon Han, Choong-Wan Woo\*, Interpretable Depression Assessment Using a Large Language Model, _in prep_
 
