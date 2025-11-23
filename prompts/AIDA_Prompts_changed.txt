@@ -1,0 +1,61 @@
+{
+    "PHQ8": {
+        "Prompt": "Evaluate the severity of depressive symptoms based on the provided semi-structured clinical interview between Ellie and Participant. \n\n[Interview]\n[INSERT_INTERVIEW]\n[End of interview]\n\nAssess the interview text to answer the following question.\n\nQuestion: [INSERT_QUESTION]\n\nProvide a score from 0 to 10, where 0 represents \"Not at all\" and 10 represents \"Extremely\". Return only the score.",
+        "Question": [
+            "How much does Participant express having little interest or pleasure in doing things?",
+            "How much does Participant express feeling down, depressed, irritable or hopeless?",
+            "How much does Participant express trouble falling or staying asleep, or sleeping too much?",
+            "How much does Participant express feeling tired or having little energy?",
+            "How much does Participant express poor appetite or overeating?",
+            "How much does Participant express feeling bad about themselves – or that they are a failure or have let themselves or their family down?",
+            "How much does Participant express trouble concentrating on things, such as school work, reading or watching television?",
+            "How much does Participant express moving or speaking so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that they have been moving around a lot more than usual?"
+        ]
+    },
+    "Ling": {
+        "Prompt": "Evaluate the severity of depressive symptoms based on the provided semi-structured clinical interview between Ellie and Participant. \n\n[Interview]\n[INSERT_INTERVIEW]\n[End of interview]\n\nAssess the interview text to answer the following question.\n\nQuestion: [INSERT_QUESTION]\n\nProvide a score from 0 to 10, where 0 represents \"Not at all\" and 10 represents \"Extremely\". Return only the score.",
+        "Question": [
+            "How positive is Participant's sentiment?",
+            "How negative is Participant's sentiment?",
+            "To what extent is Participant's language self-focused compared to other-focused (e.g., \"I\" vs. \"They\")?",
+            "To what extent is Participant's language present-focused compared to past- or future-focused (e.g., \"I'm\" vs. \"I used to\")?",
+            "How effectively does Participant differentiate between similar emotions with distinct nuances (e.g., \"sad\" vs. \"disappointed\")?"
+        ]
+    },
+    "CDS": {
+        "Prompt": "Evaluate the severity of depressive symptoms based on the provided semi-structured clinical interview between Ellie and Participant. \n\n[Interview]\n[INSERT_INTERVIEW]\n[End of interview]\n\nAssess the interview text to answer the following question.\n\nQuestion: [INSERT_QUESTION]\n\nProvide a score from 0 to 10, where 0 represents \"Not at all\" and 10 represents \"Extremely\". Return only the score.",
+        "Question": [
+            "(Mindreading) To what extent does Participant assume others are thinking negatively about them without sufficient evidence? (e.g., \"My boss hasn’t replied to the email I sent about the project days ago. He must think I’m incompetent.\")",
+            "(Catastrophizing) To what extent does Participant make negative predictions about the future without sufficient evidence? (e.g., \"My boyfriend wants to spend more time with his friends. We’ll be distant and eventually break up.\")",
+            "(All-or-Nothing Thinking) To what extent does Participant view situations in extremes, without considering middle ground? (e.g., \"I got a B+ on the exam, not an A. I’m a failure.\")",
+            "(Emotional Reasoning) To what extent does Participant believe something is true because it feels that way, even when the evidence suggests otherwise? (e.g., \"My friends couldn’t get enough tickets for the concert. I know they didn’t mean to exclude me, but I feel rejected and believe they did.\")",
+            "(Labeling) To what extent does Participant assign negative labels to themselves based on specific incidents? (e.g., \"I asked a woman to dance and she turned me down. I am a loser.\")",
+            "(Mental Filter) To what extent does Participant focus only on negative details, ignoring positive aspects? (e.g., \"My boyfriend said I’m smart and fun, but also mentioned I’m demanding. I’m fixating on that comment and feeling bad.\")",
+            "(Overgeneralization) To what extent does Participant assume that one negative event will lead to a pattern of failures? (e.g., \"I failed my math exam. I’ll probably fail the exams in my other courses as well.\")",
+            "(Personalization) To what extent does Participant assume personal responsibility for negative events that aren’t their fault? (e.g., \"My company didn’t get the important contract. It must be my fault.\")",
+            "(Should Statements) To what extent does Participant think that things should or must be a certain way? (e.g., \"I should always get at least a 90 on my exams. I'm upset because I got an 85.\")",
+            "(Minimizing or Disqualifying the Positive) To what extent does Participant ignore the positive things that happen to them? (e.g., \"My boss said I did a great job on the sale, but I just got lucky with that. It wasn’t really because of my skill.\")"
+        ]
+    },
+    "Neu": {
+        "Prompt": "Evaluate the severity of depressive symptoms based on the provided semi-structured clinical interview between Ellie and Participant. \n\n[Interview]\n[INSERT_INTERVIEW]\n[End of interview]\n\nAssess the interview text to answer the following question.\n\nQuestion: [INSERT_QUESTION]\n\nProvide a score from 0 to 10, where 0 represents \"Not at all\" and 10 represents \"Extremely\". Return only the score.",
+        "Question": [
+            "To what extent does Participant express thoughts on political issues?",
+            "To what extent is Participant interested in music or musical instruments?",
+            "To what extent does Participant have preferences for certain types of food or cuisine?",
+            "To what extent is Participant engaged in financial planning or budgeting?",
+            "To what extent does Participant use numerical information in their description?",
+            "To what extent is Participant working in technical or scientific fields compared to humanities or social sciences?",
+            "To what extent does Participant express religious beliefs?",
+            "To what extent does Participant enjoy watching movies or television shows?",
+            "To what extent does Participant have an interest in animals?",
+            "To what extent does Participant prefer urban living to rural living?"
+        ]
+    },
+    "DepSev": {
+        "Prompt": "Evaluate the severity of depressive symptoms based on the provided semi-structured clinical interview between Ellie and Participant. \n\n[Interview]\n[INSERT_INTERVIEW]\n[End of interview]\n\nAssess the interview text to answer the following question.\n\nQuestion: [INSERT_QUESTION]\n\nProvide a score from 0 to 10, where 0 represents \"Not at all\" and 10 represents \"Extremely\". Return only the score.",
+        "Question": [
+            "How severe are Participant's depressive symptoms?"
+        ]
+    }
+}
